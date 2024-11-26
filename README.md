@@ -34,3 +34,34 @@ where Vc = VCC = 5V, V1, V2 - threshold voltages (0.8V and 1.6V respectively).<p
 The test circuit made on a tiny PCB board ($$\approx$$ 45x25mm) shown below:
 
 ![circuit](board.png)
+
+Parts list:
+
+
+DA1 = 4093;
+
+
+VT1-VT3 = 2N7000;
+
+
+C1-C6 = 100ufx16V;
+
+
+C7 = 10ufx50V;
+
+
+R1-R4, R7, R10 = 1M;
+
+
+R5, R8, R11 = 680k;
+
+
+R6 = 470R*;
+
+
+R9 = 1k*;
+
+
+R12 = 6.8k*;
+
+<sup>*</sup> you need to pick the right one to adjust LED brightness.
